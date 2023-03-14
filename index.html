@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <div class="successful">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hacker_behind_PC.svg/1200px-Hacker_behind_PC.svg.png"
+            alt="">
+        <span>Login successful</span>
+    </div>
+
+    <div class="container">
+        <h1>Login To Your Account</h1>
+        <form>
+            <div class="form-control">
+                <input type="email" required>
+                <label>E-mail</label>
+            </div>
+            <div class="form-control">
+                <input type="password" min="4" pattern=".{4,}" required>
+                <label>Password</label>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p class="text">Don't you have an account? <a href="#">Create Account.</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
